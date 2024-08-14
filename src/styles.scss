@@ -1,1 +1,122 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+
+
+.custom-breadcrumb {
+    border: none !important;
+}
+
+.p-metergroup-label {
+    display: none !important;
+}
+
+.p-metergroup {
+    width: 10rem;
+    height: 1.2rem
+}
+
+.p-card-title {
+    color: white;
+}
+
+.p-card-subtitle {
+    color: white;
+}
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.marquee-content {
+    display: flex;
+    animation: marquee linear infinite;
+}
+
+.marquee-content img {
+    flex-shrink: 0;
+    width: 180px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.cardBg {
+    padding: 0;
+    background-color: #80c479;
+    border-radius: 0.2rem;
+}
+
+.image-gallery {
+    background-color: #dedede;
+}
+
+.image-gallery-2 {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-family: serif;
+}
+
+.cardBgPM {
+    background-color: #e97b54;
+    border-radius: 0.2rem;
+}
+
+
+.cardBgwal {
+    background-color: #35689d;
+    border-radius: 0.2rem;
+}
+
+.cardBgAwards {
+    background-color: #c9a635;
+    border-radius: 0.2rem;
+}
+
+.button {
+    color: white;
+    font-family: 'emoji';
+
+    :hover {
+        color: black;
+    }
+}
+
+.footer {
+    position: relative;
+    background-image: url('https://res.cloudinary.com/nithinmanda/image/upload/v1723562032/cultrl-bottom-bg_j2xibd.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+
+    min-height: 600px;
+    padding: 20px;
+    z-index: 1;
+}
+
+.footer h1,
+.footer p,
+.footer div {
+    position: relative;
+    z-index: 2;
+}
+
+.text-size {
+    font-size: small;
+    font-weight: 500;
+}
